@@ -1,0 +1,58 @@
+body{
+    background-color: #41B3AA;
+}
+
+h1{
+    text-align: center;
+    color: #125950;
+}
+
+.enlaces{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.enlaces a{
+    color: #125950;
+}
+
+.contenedor{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.museo1{
+    background-color: white;
+    display: flex;
+    border: 10px solid #EB491E;
+    margin: 50px;
+    width: 90%;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.museo1 img{
+    width: 300px;
+    border: 10px solid #FFA84C;
+    outline: 10px solid #EB491E;
+}
+
+.museo2{
+    background-color: white;
+    border: 10px solid #FFA84C;
+    display: flex;
+    width: 90%;
+    margin: 50px;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.museo2 img{
+    width: 300px;
+    border: 10px solid #EB491E;
+    outline: 10px solid #FFA84C;
+}

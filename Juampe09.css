@@ -1,0 +1,52 @@
+body{
+    background-color: #C4C6B9;
+}
+
+h1{
+    display: block;
+    text-align: end;
+    font-size: 90px;
+    letter-spacing: 30px;
+    color: darkblue;
+}
+
+header a{
+    float: left;
+}
+
+.sagrada-familia, .park-guell, .museo-picasso{
+    overflow:hidden;
+}
+
+.sagrada-familia h2, .park-guell h2, .museo-picasso h2{
+    padding: 5px;
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.sagrada-familia p, .park-guell p, .museo-picasso p{
+    padding: 20px;
+}
+
+.sagrada-familia img{
+    float: left;
+    clear: both;
+    width: 30%;
+    height: 30%px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.park-guell img{
+    clear: both;
+    margin-left: 35%;
+    width: 30%;
+    height: 30%;
+}
+
+.museo-picasso img{
+    float: right;
+    clear: both;
+    width: 30%;
+    height: 30%;
+}

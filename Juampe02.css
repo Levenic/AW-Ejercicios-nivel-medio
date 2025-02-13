@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: rgb(29,31,33);
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 12px;
+    background-color: rgb(29,31,33);
+    font-size: small
+}
+
+header .opciones {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .opciones-izquierda, header .opciones-derecha {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+header .opciones a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+#puntos{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+#user{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+.logo-busqueda{
+    display: inline-block;
+    background-image: url(./Imagenes/LogoLupa.svg);
+    height: 22px;
+    width: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-micro{
+    display: inline-block;
+    background-image: url(./Imagenes/LogoMicro.svg);
+    height: 22px;
+    width: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-camara{
+    display: inline-block;
+    background-image: url(./Imagenes/LogoCamara.svg);
+    height: 22px;
+    width: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main{
+    height: calc(100% - 60px - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 150px;
+}
+
+main .container figure{
+    height: 94px;
+}
+
+main .container figure img{
+    height: 100%;
+}
+
+main .container p{
+    color: whitesmoke;
+}
+
+main .container .buscador{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px;
+    height: 45px;
+    width: 600px;
+    padding: 8px 12px;
+    border-radius: 24px;
+    background-color: #4d5156;
+}
+
+main .container .buscador button{
+    border: none;
+    background-color: transparent;
+}
+
+main .container .buscador input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+}
+
+main .container .boton-busqueda button{
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(48,49,52);
+    padding: 10px;
+    width: 165px;
+    color: whitesmoke;
+}
+
+main .container p{
+    font-size: small;
+    color: whitesmoke;
+}
+
+footer{
+    background-color:rgb(23,23,23);
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+footer section{
+    display: flex;
+    height: 50%;
+    align-items: center;
+    padding: 0 15px;
+    color: #BBC3C9;
+}
+
+footer section.mas-info{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 0.1px #bbc3c92c;
+}
+
+footer section.mas-info div{
+    display: flex;
+    gap: 12px;
+}
+
+footer section.mas-info div a{
+    text-decoration: none;
+    color: #BBC3C9;
+}
